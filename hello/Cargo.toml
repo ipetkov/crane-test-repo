@@ -1,0 +1,13 @@
+[package]
+name = "hello"
+version.workspace = true
+edition.workspace = true
+
+[build-dependencies]
+byteorder.workspace = true
+
+[dependencies]
+byteorder = { workspace = true, features = ["std"] }
+
+[dev-dependencies]
+libc = { workspace = true, features = ["std"] }

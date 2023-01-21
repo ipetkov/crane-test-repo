@@ -1,0 +1,10 @@
+[package]
+name = "world"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+byteorder.workspace = true
+
+[dev-dependencies]
+libc.workspace = true
