@@ -1,3 +1,3 @@
 pub fn world() -> &'static str {
-    "world!"
+    include_str!("./common.txt")
 }
