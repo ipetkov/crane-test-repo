@@ -2,6 +2,7 @@
 name = "hello"
 version.workspace = true
 edition.workspace = true
+exclude = ["src/intentionally-broken-symlink"]
 
 [build-dependencies]
 byteorder.workspace = true
